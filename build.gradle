@@ -6,6 +6,11 @@ plugins {
 group = 'space.jetbrains.uision'
 version = '1.0-SNAPSHOT'
 
+sourceSets {
+    main.java.srcDirs = ['src']
+    main.resources.srcDirs = ['resources']
+}
+
 repositories {
     mavenCentral()
 }
